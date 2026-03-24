@@ -79,7 +79,7 @@ st.write("Vložte texty (Každý riadok = jeden štítok). Štýl rozloženia po
 with st.sidebar:
     st.header("Nastavenia")
     # Upravený rozsah slideru pre lepšiu kontrolu nad širokými kódmi
-    barcode_w = st.slider("Hustota čiar (šírka kódu)", 0.3, 1.2, 0.55, 0.01)
+    barcode_w = st.slider("Hustota čiar (šírka kódu)", 0.3, 1.2, 0.70, 0.01)
     st.info("Na jednu A4 sa zmestí 20 štítkov (4x5).")
     if st.button("Vymazať všetko"):
         st.rerun()
